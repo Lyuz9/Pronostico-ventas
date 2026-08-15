@@ -22,11 +22,6 @@
                     <x-nav-link :href="route('familias.create')" :active="request()->routeIs('familias.create')">
                         {{ __('Registrar Familias') }}
                     </x-nav-link>
-                    <!--
-                    <x-nav-link :href="route('familias.edit')" :active="request()->routeIs('familias.edit')">
-                        {{ __('Editar Familias') }}
-                    </x-nav-link>
-                -->
                 </div>
             </div>
 

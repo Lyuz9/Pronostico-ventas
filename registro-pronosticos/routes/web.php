@@ -23,7 +23,9 @@ require __DIR__.'/auth.php';
 Route::controller(FamiliaController::class)->prefix('familias')->name('familias.')->group(function () {
     Route::get('/', 'index')->name('index');            // Genera la ruta: familias.index
     Route::get('/create', 'create')->name('create');    // Genera la ruta: familias.create
-    Route::get('/edit', 'edit')->name('edit');    // Genera la ruta: familias.edit
+    Route::get('/edit/{familia}', 'edit')->name('edit');    // Genera la ruta: familias.edit
     Route::post('/', 'store')->name('store'); // ✅ NUEVA: recibe el formulario de creación
+    Route::put('/{familia}', 'update')->name('update');
+    Route::delete('/{familia}', 'destroy')->name('destroy');
     // Route::get('/{familia}', 'show')->name('show');    // Genera la ruta: familias.show
 });

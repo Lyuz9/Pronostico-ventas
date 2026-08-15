@@ -13,7 +13,9 @@ class FamiliaController extends Controller
      */
     public function index()
     {
-        return view('familias.index');
+        $familias = Familia::all();
+
+        return view('familias.index', compact('familias'));
     }
 
     /**
@@ -48,24 +50,32 @@ class FamiliaController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Familia $familia)
     {
-        return view('familias.edit');
+        return view('familias.edit', compact('familia'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Familia $familia)
     {
-        //
+        $datos = $request->validate([
+            'fam_nombre' => 'required|string|max:255'
+        ]);
+
+        $familia->update($datos);
+
+        return redirect()->route('familias.index')->with('exito', 'Familia actualizada correctamente ✅');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Familia $familia)
     {
-        //
+        $familia->delete();
+
+        return redirect()->route('familias.index')->with('exito', 'Familia eliminada correctamente ✅');
     }
 }

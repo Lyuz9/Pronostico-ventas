@@ -28,7 +28,7 @@
                             <label for="InputFamilia" class="form-label">Nombre de la familia</label>
                             <input type="text" class="form-control" id="InputFamilia" name="fam_nombre">
                         </div>
-                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <button type="submit" class="btn btn-success">Guardar</button>
                     </form>
                 </div>
             </div>
