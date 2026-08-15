@@ -15,6 +15,18 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+
+                    <x-nav-link :href="route('familias.index')" :active="request()->routeIs('familias.index')">
+                        {{ __('Familias') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('familias.create')" :active="request()->routeIs('familias.create')">
+                        {{ __('Registrar Familias') }}
+                    </x-nav-link>
+                    <!--
+                    <x-nav-link :href="route('familias.edit')" :active="request()->routeIs('familias.edit')">
+                        {{ __('Editar Familias') }}
+                    </x-nav-link>
+                -->
                 </div>
             </div>
 
