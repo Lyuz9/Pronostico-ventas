@@ -13,6 +13,12 @@ class Familia extends Model
 
     public function productos(): HasMany
     {
-        return $this->hasMany('Producto::class');
+        return $this->hasMany(Producto::class);
+    }
+
+    // ✅ Una Familia puede tener muchos Pronósticos
+    public function pronosticos()
+    {
+        return $this->hasMany(Pronostico::class);
     }
 }

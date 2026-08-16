@@ -46,4 +46,10 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    // ✅ Un Usuario puede tener muchos Pronósticos
+    public function pronosticos()
+    {
+        return $this->hasMany(Pronostico::class);
+    }
 }

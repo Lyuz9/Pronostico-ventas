@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\FamiliaController;
 use App\Http\Controllers\ProductoController;
+use App\Http\Controllers\PronosticoController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -38,4 +39,16 @@ Route::controller(ProductoController::class)->prefix('productos')->name('product
     Route::get('/edit/{producto}', 'edit')->name('edit');
     Route::put('/{producto}', 'update')->name('update');
     Route::delete('/{producto}', 'destroy')->name('destroy');
+});
+
+Route::controller(PronosticoController::class)->prefix('pronosticos')->name('pronosticos.')->group(function () {
+    Route::get('/', 'index')->name('index');
+    Route::get('/create', 'create')->name('create');
+    Route::post('/', 'store')->name('store');
+    Route::get('/productos-por-familia/{familia}', function ($familia) {
+        return \App\Models\Producto::where('familia_id', $familia)->orderBy('pro_nombre')->get();
+    });
+    Route::get('/edit/{pronostico}', 'edit')->name('edit');
+    Route::put('/{pronostico}', 'update')->name('update');
+    Route::delete('/{pronostico}', 'destroy')->name('destroy');
 });

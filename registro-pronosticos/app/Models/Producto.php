@@ -17,4 +17,10 @@ class Producto extends Model
     {
         return $this->belongsTo(Familia::class);
     }
+
+    // ✅ Un Producto puede tener muchos Pronósticos
+    public function pronosticos()
+    {
+        return $this->hasMany(Pronostico::class);
+    }
 }
