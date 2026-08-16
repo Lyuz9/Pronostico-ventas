@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FamiliaController;
+use App\Http\Controllers\ProductoController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,7 +19,7 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
 
 Route::controller(FamiliaController::class)->prefix('familias')->name('familias.')->group(function () {
     Route::get('/', 'index')->name('index');            // Genera la ruta: familias.index
@@ -28,4 +29,13 @@ Route::controller(FamiliaController::class)->prefix('familias')->name('familias.
     Route::put('/{familia}', 'update')->name('update');
     Route::delete('/{familia}', 'destroy')->name('destroy');
     // Route::get('/{familia}', 'show')->name('show');    // Genera la ruta: familias.show
+});
+
+Route::controller(ProductoController::class)->prefix('productos')->name('productos.')->group(function () {
+    Route::get('/', 'index')->name('index');
+    Route::get('/create', 'create')->name('create');
+    Route::post('/', 'store')->name('store');
+    Route::get('/edit/{producto}', 'edit')->name('edit');
+    Route::put('/{producto}', 'update')->name('update');
+    Route::delete('/{producto}', 'destroy')->name('destroy');
 });

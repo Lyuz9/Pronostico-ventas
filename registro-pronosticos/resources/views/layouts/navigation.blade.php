@@ -19,8 +19,9 @@
                     <x-nav-link :href="route('familias.index')" :active="request()->routeIs('familias.index')">
                         {{ __('Familias') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('familias.create')" :active="request()->routeIs('familias.create')">
-                        {{ __('Registrar Familias') }}
+
+                    <x-nav-link :href="route('productos.index')" :active="request()->routeIs('productos.index')">
+                        {{ __('Productos') }}
                     </x-nav-link>
                 </div>
             </div>
