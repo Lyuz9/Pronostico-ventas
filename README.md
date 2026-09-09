@@ -32,7 +32,7 @@ Es una herramienta pensada para el día a día del equipo de ventas: más rápid
 
 <img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/1.png" width="80%">
 
-2. Listado de productos relacionados a su respectiva familia a la que pertenecen.
+<p>2. Listado de productos relacionados a su respectiva familia a la que pertenecen.</p>
 
 <img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/2.png" width="80%">
 
