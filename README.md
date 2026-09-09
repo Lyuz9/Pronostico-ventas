@@ -28,33 +28,43 @@ Como la información que se maneja es delicada, desarrollé una versión mejorad
 🤝 En pocas palabras
 Es una herramienta pensada para el día a día del equipo de ventas: más rápida, más ordenada y más confiable que los archivos compartidos de antes. Se eliminan las esperas, se cuida la información y se facilita todo el trabajo de pronósticos y reportes.
 
-<div>
-<p>
-1. Tener familias registradas. Existen productos diferentes, los cuales tienen en común que pertenecen a un mismo origen/familia de las que se especializan para un uso en concreto, ejemplo: Drago son los productos de hornos, calentadores, etc. Icehaus son distintos tipos de refrigeración.
-</p>
+### 1. Gestión de Familias de Productos
+Existen productos diferentes que comparten un mismo origen o familia, y se especializan en un uso concreto. Por ejemplo: la familia **Drago** agrupa productos como hornos, calentadores, etc.; mientras que **Icehaus** incluye distintos tipos de equipos de refrigeración.
 
-<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/1.png" width="80%">
-</div>
+<img src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/1.png" width="80%">
 
-<p>2. Listado de productos relacionados a su respectiva familia a la que pertenecen.</p>
+---
 
-<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/2.png" width="80%">
+### 2. Listado de Productos
+Se muestran los productos relacionados con su respectiva familia a la que pertenecen.
 
-<p>
-3. El apartado de los pronósticos se crea de acuerdo a la consulta de usuarios registrados de la página web; al seleccionar un usuario que funge como vendedor a la vez y así mismo seleccionar una familia de productos en concreto, se consultarán todos los productos relacionados con la familia seleccionada. Después de esto, solo se necesita saber qué cantidad se va a vender de acuerdo a los productos seleccionados.
+<img src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/2.png" width="80%">
 
-* Seleccivendedor.ario/vendedor
-* Seleccionar familia
-* Especificar los productos les creará el pronóstico, un pronóstico dando click en el checkbox.
-* Ingresar la cantidad a vender de los productos de acuerdo a los meses que se van a vender.
-</p>
+---
 
-<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/3.png" width="80%">
+### 3. Creación de Pronósticos
+El apartado de pronósticos funciona mediante la consulta de usuarios registrados en la plataforma. El flujo es el siguiente:
 
-<p>4. Visualización de los pronósticos ya registrados en la base de datos.</p>
+- ✅ Seleccionar un usuario que funge como **vendedor**.
+- ✅ Seleccionar una **familia de productos**.
+- ✅ Se cargarán automáticamente **todos los productos relacionados** con esa familia.
+- ✅ Seleccionar los productos mediante **casillas de verificación** para incluirlos en el pronóstico.
+- ✅ Ingresar la **cantidad estimada a vender**, desglosada por los meses correspondientes.
 
-<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/4.png" width="100%">
+<img src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/3.png" width="80%">
 
-<p>
-⚠️ A esta versión mejorada de la página web usando Laravel aún se le estarán haciendo mejoras y otras funcionalidades que no tiene de la página original, tales como exportar los pronósticos a Excel o PDF, calcular los totales de cada producto vendido entre todos los pronósticos de los vendedores y un dashboard de gráficos como en Power BI.
-</p>
+---
+
+### 4. Visualización de Pronósticos Registrados
+Permite consultar y visualizar todos los pronósticos ya guardados en la base de datos.
+
+<img src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/4.png" width="100%">
+
+---
+
+## 🚧 Mejoras y funcionalidades en desarrollo
+
+> ⚠️ Esta versión mejorada desarrollada en **Laravel** sigue en proceso de actualización. Se agregarán próximamente funcionalidades que no disponía la versión original, tales como:
+> - Exportar pronósticos a **Excel y PDF**.
+> - Cálculo automático de **totales por producto** entre todos los pronósticos de todos los vendedores.
+> - Panel de control con **gráficos estadísticos** (estilo Power BI).
