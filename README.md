@@ -27,3 +27,7 @@ Como la información que se maneja es delicada, desarrollé una versión mejorad
 
 🤝 En pocas palabras
 Es una herramienta pensada para el día a día del equipo de ventas: más rápida, más ordenada y más confiable que los archivos compartidos de antes. Se eliminan las esperas, se cuida la información y se facilita todo el trabajo de pronósticos y reportes.
+
+1. Tener familias registradas. Existen productos diferentes, los cuales tienen en común que pertenecen a un mismo origen/familia de las que se especializan para un uso en concreto, ejemplo: Drago son los productos de hornos, calentadores, etc. Icehaus son distintos tipos de refrigeración.
+
+<img align="right" src="httpshttps://raw.githubusercontent.com/Lyuz9/Pronostico-ventas/refs/heads/main/img/1.png" width="90%">
