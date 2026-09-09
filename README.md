@@ -30,4 +30,23 @@ Es una herramienta pensada para el día a día del equipo de ventas: más rápid
 
 1. Tener familias registradas. Existen productos diferentes, los cuales tienen en común que pertenecen a un mismo origen/familia de las que se especializan para un uso en concreto, ejemplo: Drago son los productos de hornos, calentadores, etc. Icehaus son distintos tipos de refrigeración.
 
-<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/1.png" width="90%">
+<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/1.png" width="80%">
+
+2. Listado de productos relacionados a su respectiva familia a la que pertenecen.
+
+<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/2.png" width="80%">
+
+3. El apartado de los pronósticos se crea de acuerdo a la consulta de usuarios registrados de la página web; al seleccionar un usuario que funge como vendedor a la vez y así mismo seleccionar una familia de productos en concreto, se consultarán todos los productos relacionados con la familia seleccionada. Después de esto, solo se necesita saber qué cantidad se va a vender de acuerdo a los productos seleccionados.
+
+* Seleccivendedor.ario/vendedor
+* Seleccionar familia
+* Especificar los productos les creará el pronóstico, un pronóstico dando click en el checkbox.
+* Ingresar la cantidad a vender de los productos de acuerdo a los meses que se van a vender.
+
+<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/3.png" width="80%">
+
+4. Visualización de los pronósticos ya registrados en la base de datos.
+
+<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/2.png" width="100%">
+
+⚠️ A esta versión mejorada de la página web usando Laravel aún se le estarán haciendo mejoras y otras funcionalidades que no tiene de la página original, tales como exportar los pronósticos a Excel o PDF, calcular los totales de cada producto vendido entre todos los pronósticos de los vendedores y un dashboard de gráficos como en Power BI.
