@@ -30,4 +30,4 @@ Es una herramienta pensada para el día a día del equipo de ventas: más rápid
 
 1. Tener familias registradas. Existen productos diferentes, los cuales tienen en común que pertenecen a un mismo origen/familia de las que se especializan para un uso en concreto, ejemplo: Drago son los productos de hornos, calentadores, etc. Icehaus son distintos tipos de refrigeración.
 
-<img align="right" src="httpshttps://raw.githubusercontent.com/Lyuz9/Pronostico-ventas/refs/heads/main/img/1.png" width="90%">
+<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/1.png" width="90%">
