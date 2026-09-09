@@ -28,7 +28,9 @@ Como la información que se maneja es delicada, desarrollé una versión mejorad
 🤝 En pocas palabras
 Es una herramienta pensada para el día a día del equipo de ventas: más rápida, más ordenada y más confiable que los archivos compartidos de antes. Se eliminan las esperas, se cuida la información y se facilita todo el trabajo de pronósticos y reportes.
 
+<p>
 1. Tener familias registradas. Existen productos diferentes, los cuales tienen en común que pertenecen a un mismo origen/familia de las que se especializan para un uso en concreto, ejemplo: Drago son los productos de hornos, calentadores, etc. Icehaus son distintos tipos de refrigeración.
+</p>
 
 <img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/1.png" width="80%">
 
@@ -36,17 +38,21 @@ Es una herramienta pensada para el día a día del equipo de ventas: más rápid
 
 <img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/2.png" width="80%">
 
+<p>
 3. El apartado de los pronósticos se crea de acuerdo a la consulta de usuarios registrados de la página web; al seleccionar un usuario que funge como vendedor a la vez y así mismo seleccionar una familia de productos en concreto, se consultarán todos los productos relacionados con la familia seleccionada. Después de esto, solo se necesita saber qué cantidad se va a vender de acuerdo a los productos seleccionados.
 
 * Seleccivendedor.ario/vendedor
 * Seleccionar familia
 * Especificar los productos les creará el pronóstico, un pronóstico dando click en el checkbox.
 * Ingresar la cantidad a vender de los productos de acuerdo a los meses que se van a vender.
+</p>
 
 <img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/3.png" width="80%">
 
-4. Visualización de los pronósticos ya registrados en la base de datos.
+<p>4. Visualización de los pronósticos ya registrados en la base de datos.</p>
 
 <img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/4.png" width="100%">
 
+<p>
 ⚠️ A esta versión mejorada de la página web usando Laravel aún se le estarán haciendo mejoras y otras funcionalidades que no tiene de la página original, tales como exportar los pronósticos a Excel o PDF, calcular los totales de cada producto vendido entre todos los pronósticos de los vendedores y un dashboard de gráficos como en Power BI.
+</p>
