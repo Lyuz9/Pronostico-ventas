@@ -47,6 +47,6 @@ Es una herramienta pensada para el día a día del equipo de ventas: más rápid
 
 4. Visualización de los pronósticos ya registrados en la base de datos.
 
-<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/2.png" width="100%">
+<img align="right" src="https://github.com/Lyuz9/Pronostico-ventas/blob/main/img/4.png" width="100%">
 
 ⚠️ A esta versión mejorada de la página web usando Laravel aún se le estarán haciendo mejoras y otras funcionalidades que no tiene de la página original, tales como exportar los pronósticos a Excel o PDF, calcular los totales de cada producto vendido entre todos los pronósticos de los vendedores y un dashboard de gráficos como en Power BI.
